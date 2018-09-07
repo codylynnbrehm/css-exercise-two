@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: white;
+  color: #3A3A3A;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 nav {
@@ -8,6 +10,16 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #0802DE;
 }
 
 .logo {
@@ -43,10 +55,42 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding: 100px 0px 30px 0px;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 37%;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 25px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.2;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 2;
+  padding: 10px 0px 10px 0px;
+}
+
+figure {
+  padding-bottom: 30px;
+}
+
+figcaption {
+  font-size: .85em;
+}
+
+.author {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: .95em;
 }
